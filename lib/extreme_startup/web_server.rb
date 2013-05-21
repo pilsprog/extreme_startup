@@ -15,7 +15,7 @@ module ExtremeStartup
     
   class WebServer < Sinatra::Base
 
-    set :root, '/Users/trulsjor/dev/milescamp/extreme_startup/'
+    set :root, '.'
     set :port, 3000
     set :static, true 
     set :public_folder, 'public'
