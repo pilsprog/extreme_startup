@@ -451,7 +451,7 @@ class PalindromeQuestion < Question
     def initialize
       @round = 1
       @question_types = [
-       # GeneralKnowledgeQuestion,             #00  1
+        GeneralKnowledgeQuestion,             #00  1
         AdditionQuestion,                     #01  1
         AdditionQuestion,                     #01  1
         MaximumQuestion,                      #02  1
