@@ -301,15 +301,12 @@ module ExtremeStartup
     class << self
       def question_bank
         [
-          ["Ikke Miles2.0, men..?", "Miles Ahead"],
-          ["Hvor mange ansatte (inkludert signerte) er det totalt i Miles pr i dag", "86"],
-          ["Hva er slagordet til Miles?", "Faglig autoritet og varme - et unikt IT-selskap"],
-          ["Hvem har æren for logoen til Miles?", "Ivan"],
-          ["Hva heter hotellet vi er på?", "Holmenkollen Park Hotel Rica"],
-          ["I hvilket år ble Miles startet?","2005"],
+          ["Hva er norges storste by?", "Oslo"],
           ["I hvilken by ble det første Mileskontoret åpnet?", "Bergen"],
-          ["Hva er organisasjonsnummeret til Miles Stavanger AS?", "896892592"],
-          ["Hva er epostadressen til Miles Oslo?","oslo@miles.no"]
+          ["Hva er twitter-handlen til Bergen CodingDojo?", "BergenCodeDojo"],
+          ["Hvor mange grader er det i en sirkel?", "360"],
+          ["Har vi øl i kjøleskapet?", "Ja"],
+          ["Hvor mange meetups har Bergen CodingDojo arrangert","10"]
         ]
       end
     end
