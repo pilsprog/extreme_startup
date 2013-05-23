@@ -24,6 +24,7 @@ module ExtremeStartup
     set :scoreboard, Scoreboard.new(ENV['LENIENT'])
     set :question_factory, ENV['WARMUP'] ? WarmupQuestionFactory.new : QuestionFactory.new
     set :game_state, GameState.new
+    set :bind, '0.0.0.0'
 
     get '/' do 
        haml :scores
