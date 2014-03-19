@@ -302,11 +302,9 @@ module ExtremeStartup
       def question_bank
         [
           ["Hva er norges storste by?", "Oslo"],
-          ["I hvilken by ble det første Mileskontoret åpnet?", "Bergen"],
-          ["Hva er twitter-handlen til Bergen CodingDojo?", "BergenCodeDojo"],
           ["Hvor mange grader er det i en sirkel?", "360"],
           ["Har vi øl i kjøleskapet?", "Ja"],
-          ["Hvor mange meetups har Bergen CodingDojo arrangert","10"]
+          ["Hva heter organisasjonen som arrangerer pils og programmering?","Kompiler"]
         ]
       end
     end
