@@ -6,14 +6,22 @@ NB don't show the players the code for this project until after the workshop as 
 
 Getting started
 ---------------
-* Install Ruby 1.9.2 and rubygems
+* Install Ruby 1.9.3 and rubygems
 * (For Windows)
   * Install [Ruby DevKit](http://rubyinstaller.org/downloads/)
   * Extract to (e.g.) c:\devkit
   * cd c:\devkit
   * ruby dk.rb init
-  * Edit the file config.yml (Add the locations where ruby is installed e.g. c:\Ruby192)
+  * Edit the file config.yml (Add the locations where ruby is installed e.g. c:\Ruby193)
   * ruby dk.rb install
+* (For Ubuntu 12.04 onwards)   
+  * Remove existing installation of Ruby and ruby related packages (do not use sudo or Ubuntu Software centre or any other Ubuntu package manager to install Ruby or any of its components)
+  * Remove rvm and related package from Ubuntu
+  * Install RVM using the instructions on https://rvm.io/
+  * In case RVM is broken it can be fixed by going to http://stackoverflow.com/questions/9056008/installed-ruby-1-9-3-with-rvm-but-command-line-doesnt-show-ruby-v/9056395#9056395 
+  * Install Ruby and Rubygems using RVM only (for Rubygems use: 'rvm rubygems current' or 'rvm rubygems latest')
+  * See [Installing Nokogiri](http://nokogiri.org/tutorials/installing_nokogiri.html) for installing requierement
+    * sudo apt-get install libxslt-dev libxml2-dev
 
 * Install dependencies:
 
