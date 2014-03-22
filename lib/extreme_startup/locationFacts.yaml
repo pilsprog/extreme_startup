@@ -1,0 +1,34 @@
+---
+-
+  fact: Hvis A er over B og B er over C, er A over C?
+  truth: ja
+-
+  fact: Hvis A er under B og B er under C, er A under C?
+  truth: ja
+-
+  fact: Hvis A er over B og B er under C, er A under C?
+  truth: nei
+-
+  fact: Hvis A er under B og B er over C og C er over A, er C over A?
+  truth: ja
+-
+  fact: Hvis A er i B og B er over C, er C under A?
+  truth: ja
+-
+  fact: Hvis A er i B og B er over C, er C over A?
+  truth: nei
+-
+  fact: Hvis A er i B og B er i C, er C i A?
+  truth: ja
+-
+  fact: Hvis A er under B og B er i C, er C i A?
+  truth: nei
+-
+  fact: Hvis A er under B og B er i C, er A i C?
+  truth: nei
+-
+  fact: Hvis A er under B og B er i C, er B under C?
+  truth: nei
+-
+  fact: Hvis A er over B og C er i B, er A over C?
+  truth: ja

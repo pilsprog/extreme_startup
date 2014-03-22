@@ -150,7 +150,7 @@ module ExtremeStartup
 
   class AdditionQuestion < BinaryMathsQuestion
     def as_text
-      "hva er #{@n1} pluss #{@n2}"
+      "Hva er #{@n1} pluss #{@n2}?"
     end
   private
     def correct_answer
@@ -160,7 +160,7 @@ module ExtremeStartup
 
   class SubtractionQuestion < BinaryMathsQuestion
     def as_text
-      "hva er #{@n1} minus #{@n2}"
+      "Hva er #{@n1} minus #{@n2}?"
     end
   private
     def correct_answer
@@ -170,7 +170,7 @@ module ExtremeStartup
 
   class MultiplicationQuestion < BinaryMathsQuestion
     def as_text
-      "hva er #{@n1} multiplisert med #{@n2}"
+      "Hva er #{@n1} multiplisert med #{@n2}?"
     end
   private
     def correct_answer
@@ -180,7 +180,7 @@ module ExtremeStartup
 
   class AdditionAdditionQuestion < TernaryMathsQuestion
     def as_text
-      "Hva er #{@n1} pluss #{@n2} pluss #{@n3}"
+      "Hva er #{@n1} pluss #{@n2} pluss #{@n3}?"
     end
     def points
       30
@@ -193,7 +193,7 @@ module ExtremeStartup
 
   class AdditionMultiplicationQuestion < TernaryMathsQuestion
     def as_text
-      "Hva er #{@n1} pluss #{@n2} multiplisert med #{@n3}"
+      "Hva er #{@n1} pluss #{@n2} multiplisert med #{@n3}?"
     end
     def points
       60
@@ -206,7 +206,7 @@ module ExtremeStartup
 
   class MultiplicationAdditionQuestion < TernaryMathsQuestion
     def as_text
-      "Hva er #{@n1} multiplisert med #{@n2} pluss #{@n3}"
+      "Hva er #{@n1} multiplisert med #{@n2} pluss #{@n3}?"
     end
     def points
       50
@@ -219,7 +219,7 @@ module ExtremeStartup
 
   class PowerQuestion < BinaryMathsQuestion
     def as_text
-      "Hva er #{@n1} opphoyd i #{@n2}"
+      "Hva er #{@n1} opphoyd i #{@n2}?"
     end
     def points
       20
@@ -232,7 +232,7 @@ module ExtremeStartup
 
   class SquareCubeQuestion < SelectFromListOfNumbersQuestion
     def as_text
-      "Hvilke av de folgende tallene har et heltall både som kvadratrot og kubikkrot: " + @numbers.join(', ')
+      "Hvilke av de folgende tallene er både kvadrattall og kubetall: " + @numbers.join(', ')
     end
     def points
       60
@@ -263,6 +263,40 @@ module ExtremeStartup
     end
   end
 
+  class EvenQuestion < SelectFromListOfNumbersQuestion
+     def as_text
+       "Hvilke av de folgende tallene er partall: " + @numbers.join(', ')
+     end
+     def points
+       60
+     end
+   private
+     def should_be_selected(x)
+       x.even?
+     end
+
+     def candidate_numbers
+        (1..100).to_a
+     end
+   end
+
+  class OddQuestion < SelectFromListOfNumbersQuestion
+     def as_text
+       "Hvilke av de folgende tallene er oddetall: " + @numbers.join(', ')
+     end
+     def points
+       60
+     end
+   private
+     def should_be_selected(x)
+       x.odd?
+     end
+
+     def candidate_numbers
+       (1..100).to_a
+     end
+   end
+
   class PrimesQuestion < SelectFromListOfNumbersQuestion
      def as_text
        "Hvilke av de folgende tallene er primtall: " + @numbers.join(', ')
@@ -276,14 +310,14 @@ module ExtremeStartup
      end
 
      def candidate_numbers
-       Prime.take(100)
+       Prime.take(10)
      end
    end
 
   class FibonacciQuestion < BinaryMathsQuestion
     def as_text
       n = @n1 + 4
-      return "Hvilket tall er nummer #{n} i Fibonaccirekken"  
+      return "Hvilket tall er nummer #{n} i Fibonaccirekken?"  
     end
     def points
       50
@@ -368,7 +402,7 @@ class PalindromeQuestion < Question
     end
 
     def as_text
-      %Q{Hvilke ord er et palindrom?: #{@sample.join(", ")}}
+      %Q{Hvilke av de folgende ordene er palindrom: #{@sample.join(", ")}}
     end
 
     def correct_answer
@@ -376,34 +410,80 @@ class PalindromeQuestion < Question
     end
   end
 
+  class ClosestQuestion<Question
 
-  class ClockAngleQuestion<Question
-
-    def initialize(player, *time)
-      if time.any?
-        @hr, @min= time.first.split(":")
-        @hr = @hr.to_i
-        @min = @min.to_i
+    def initialize(player,*words)
+      if words.any?
+        @questions = {}
+        @questions["question"], @questions["answer"] = words
       else
-        @hr = rand(0..23)
-        @min = rand(0..59)
+        questions = YAML.load_file(File.join(File.dirname(__FILE__), "nermestTall.yaml"))
+        @question = questions.sample
       end
     end
 
     def points
-      200
+      50
     end
 
     def as_text
-      "Hva er den minste vinkelen mellom timeviseren og minuttviseren ved #{'%02d' % @hr}:#{'%02d' % @min}"
+      %Q{#{@question["question"]}}
     end
 
     def correct_answer
-      @hr12= @hr % 12
-      hr_angle=0.5*((60*@hr12)+@min)
-      min_angle=6*@min
-      angle=(min_angle - hr_angle).abs
-      (angle>180) ? (360-angle).round : angle.round
+      @question["answer"]
+    end
+
+  end
+
+  class LocationFacts<Question
+
+    def initialize(player,*words)
+      if words.any?
+        @fact = {}
+        @fact["fact"], @facts["truth"] = words
+      else
+        facts = YAML.load_file(File.join(File.dirname(__FILE__), "locationFacts.yaml"))
+        @fact = facts.sample
+      end
+    end
+
+    def points
+      100
+    end
+
+    def as_text
+      %Q{#{@fact["fact"]}}
+    end
+
+    def correct_answer
+      @fact["truth"]
+    end
+
+  end
+
+  class FamilyFacts<Question
+
+    def initialize(player,*words)
+      if words.any?
+        @fact = {}
+        @fact["question"], @facts["relation"] = words
+      else
+        facts = YAML.load_file(File.join(File.dirname(__FILE__), "FamilyFacts.yaml"))
+        @fact = facts.sample
+      end
+    end
+
+    def points
+      100
+    end
+
+    def as_text
+      %Q{#{@fact["question"]}}
+    end
+
+    def correct_answer
+      @fact["relation"]
     end
 
   end
@@ -411,7 +491,7 @@ class PalindromeQuestion < Question
 
   class ScrabbleQuestion < Question
     def as_text
-      "what is the english scrabble score of #{@word}"
+      "Hva er den engelske scrabble poengsummen for #{@word}?"
     end
 
     def initialize(player, word=nil)
@@ -443,43 +523,58 @@ class PalindromeQuestion < Question
     end
   end
 
+  class PointQuestion < Question
+    def as_text
+      "Hvor mange poeng har du?"
+    end
+
+    def initialize(player)
+      @points = scoreboard.current_score(player)
+    end
+
+    def points
+      200
+    end
+
+    def correct_answer
+      @points
+    end
+  end
+
   class QuestionFactory
     attr_reader :round
 
     def initialize
       @round = 1
       @question_types = [
-        GeneralKnowledgeQuestion,             #00  1
-        AdditionQuestion,                     #01  1
-        AdditionQuestion,                     #01  1
-        MaximumQuestion,                      #02  1
-        MultiplicationQuestion,               #03  2
-        PrimesQuestion,                       #04  2 
-        SquareCubeQuestion,                   #05  2 
-        PalindromeQuestion,                   #06  3
-        SubtractionQuestion,                  #07  3
-        FibonacciQuestion,                    #08  3
-        PowerQuestion,                        #09  4
-        AdditionAdditionQuestion,             #10  4
-        AdditionMultiplicationQuestion,       #11  4
-        MultiplicationAdditionQuestion,       #12  5
-        AnagramQuestion,                      #13  5
-        ClockAngleQuestion                    #14  5
+        GeneralKnowledgeQuestion,             
+        AdditionQuestion,                     
+        ClosestQuestion,
+        AdditionQuestion,                     
+        MaximumQuestion,                      
+        MultiplicationQuestion,               
+        PrimesQuestion,                        
+        OddQuestion,                    
+        EvenQuestion,                    
+        PalindromeQuestion,                   
+        SubtractionQuestion,                  
+        FamilyFacts,                          
+        FibonacciQuestion,                    
+        PowerQuestion,                        
+        AdditionAdditionQuestion,             
+        AdditionMultiplicationQuestion,       
+        MultiplicationAdditionQuestion,       
+        AnagramQuestion,                      
+        LocationFacts,                        
       ]
     end
 
     def next_question(player)
-      window_end = (@round * 3 - 1)
-      #window_start = [0, window_end - 4].max
-      # 1 -  - 2
-      # 2 -  - 5
-      # 3 -  - 8
-      # 4 -  - 11
-      # 5 -  - 14
+      window_end = @round
+      window_start = [0, window_end - 5].max
 
-      window_start = 0 
-      #window_end = 14
       available_question_types = @question_types[window_start..window_end]
+
       available_question_types.sample.new(player)
     end
 

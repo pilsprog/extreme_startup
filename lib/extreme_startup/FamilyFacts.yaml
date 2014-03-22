@@ -1,0 +1,1083 @@
+---
+-
+  question: Hvis Anne er mor til Arild og Berit er soster til Arild, hva er Anne til Berit?
+  relation: mor
+-
+  question: Hvis Anne er mor til Arild og Cecilie er soster til Arild, hva er Anne til Cecilie?
+  relation: mor
+-
+  question: Hvis Anne er mor til Arild og Bob er bror til Arild, hva er Anne til Bob?
+  relation: mor
+-
+  question: Hvis Anne er mor til Arild og Carl er bror til Arild, hva er Anne til Carl?
+  relation: mor
+-
+  question: Hvis Anne er mor til Arild og Arild er mor til Berit, hva er Berit til Arild?
+  relation: bestemor
+-
+  question: Hvis Anne er mor til Arild og Arild er mor til Cecilie, hva er Cecilie til Arild?
+  relation: bestemor
+-
+  question: Hvis Anne er mor til Arild og Arild er far til Bob, hva er Bob til Anne?
+  relation: bestefar
+-
+  question: Hvis Anne er mor til Arild og Arild er far til Carl, hva er Carl til Anne?
+  relation: bestefar
+-
+  question: Hvis Anne er mor til Arild og Bob er onkel til Arild, hva er Anne til Bob?
+  relation: soster
+-
+  question: Hvis Anne er mor til Arild og Carl er onkel til Arild, hva er Anne til Carl?
+  relation: soster
+-
+  question: Hvis Anne er mor til Arild og Berit er tante til Arild, hva er Berit til Anne?
+  relation: soster
+-
+  question: Hvis Anne er mor til Arild og Cecilie er tante til Arild, hva er Cecilie til Anne?
+  relation: soster
+-
+  question: Hvis Anne er mor til Bob og Berit er soster til Bob, hva er Anne til Berit?
+  relation: mor
+-
+  question: Hvis Anne er mor til Bob og Cecilie er soster til Bob, hva er Anne til Cecilie?
+  relation: mor
+-
+  question: Hvis Anne er mor til Bob og Arild er bror til Bob, hva er Anne til Arild?
+  relation: mor
+-
+  question: Hvis Anne er mor til Bob og Carl er bror til Bob, hva er Anne til Carl?
+  relation: mor
+-
+  question: Hvis Anne er mor til Bob og Bob er mor til Berit, hva er Berit til Bob?
+  relation: bestemor
+-
+  question: Hvis Anne er mor til Bob og Bob er mor til Cecilie, hva er Cecilie til Bob?
+  relation: bestemor
+-
+  question: Hvis Anne er mor til Bob og Bob er far til Arild, hva er Arild til Anne?
+  relation: bestefar
+-
+  question: Hvis Anne er mor til Bob og Bob er far til Carl, hva er Carl til Anne?
+  relation: bestefar
+-
+  question: Hvis Anne er mor til Bob og Arild er onkel til Bob, hva er Anne til Arild?
+  relation: soster
+-
+  question: Hvis Anne er mor til Bob og Carl er onkel til Bob, hva er Anne til Carl?
+  relation: soster
+-
+  question: Hvis Anne er mor til Bob og Berit er tante til Bob, hva er Berit til Anne?
+  relation: soster
+-
+  question: Hvis Anne er mor til Bob og Cecilie er tante til Bob, hva er Cecilie til Anne?
+  relation: soster
+-
+  question: Hvis Anne er mor til Berit og Cecilie er soster til Berit, hva er Anne til Cecilie?
+  relation: mor
+-
+  question: Hvis Anne er mor til Berit og Arild er bror til Berit, hva er Anne til Arild?
+  relation: mor
+-
+  question: Hvis Anne er mor til Berit og Bob er bror til Berit, hva er Anne til Bob?
+  relation: mor
+-
+  question: Hvis Anne er mor til Berit og Carl er bror til Berit, hva er Anne til Carl?
+  relation: mor
+-
+  question: Hvis Anne er mor til Berit og Berit er mor til Cecilie, hva er Cecilie til Berit?
+  relation: bestemor
+-
+  question: Hvis Anne er mor til Berit og Berit er far til Arild, hva er Arild til Anne?
+  relation: bestefar
+-
+  question: Hvis Anne er mor til Berit og Berit er far til Bob, hva er Bob til Anne?
+  relation: bestefar
+-
+  question: Hvis Anne er mor til Berit og Berit er far til Carl, hva er Carl til Anne?
+  relation: bestefar
+-
+  question: Hvis Anne er mor til Berit og Arild er onkel til Berit, hva er Anne til Arild?
+  relation: soster
+-
+  question: Hvis Anne er mor til Berit og Bob er onkel til Berit, hva er Anne til Bob?
+  relation: soster
+-
+  question: Hvis Anne er mor til Berit og Carl er onkel til Berit, hva er Anne til Carl?
+  relation: soster
+-
+  question: Hvis Anne er mor til Berit og Cecilie er tante til Berit, hva er Cecilie til Anne?
+  relation: soster
+-
+  question: Hvis Anne er mor til Cecilie og Berit er soster til Cecilie, hva er Anne til Berit?
+  relation: mor
+-
+  question: Hvis Anne er mor til Cecilie og Arild er bror til Cecilie, hva er Anne til Arild?
+  relation: mor
+-
+  question: Hvis Anne er mor til Cecilie og Bob er bror til Cecilie, hva er Anne til Bob?
+  relation: mor
+-
+  question: Hvis Anne er mor til Cecilie og Carl er bror til Cecilie, hva er Anne til Carl?
+  relation: mor
+-
+  question: Hvis Anne er mor til Cecilie og Cecilie er mor til Berit, hva er Berit til Cecilie?
+  relation: bestemor
+-
+  question: Hvis Anne er mor til Cecilie og Cecilie er far til Arild, hva er Arild til Anne?
+  relation: bestefar
+-
+  question: Hvis Anne er mor til Cecilie og Cecilie er far til Bob, hva er Bob til Anne?
+  relation: bestefar
+-
+  question: Hvis Anne er mor til Cecilie og Cecilie er far til Carl, hva er Carl til Anne?
+  relation: bestefar
+-
+  question: Hvis Anne er mor til Cecilie og Arild er onkel til Cecilie, hva er Anne til Arild?
+  relation: soster
+-
+  question: Hvis Anne er mor til Cecilie og Bob er onkel til Cecilie, hva er Anne til Bob?
+  relation: soster
+-
+  question: Hvis Anne er mor til Cecilie og Carl er onkel til Cecilie, hva er Anne til Carl?
+  relation: soster
+-
+  question: Hvis Anne er mor til Cecilie og Berit er tante til Cecilie, hva er Berit til Anne?
+  relation: soster
+-
+  question: Hvis Anne er mor til Carl og Berit er soster til Carl, hva er Anne til Berit?
+  relation: mor
+-
+  question: Hvis Anne er mor til Carl og Cecilie er soster til Carl, hva er Anne til Cecilie?
+  relation: mor
+-
+  question: Hvis Anne er mor til Carl og Arild er bror til Carl, hva er Anne til Arild?
+  relation: mor
+-
+  question: Hvis Anne er mor til Carl og Bob er bror til Carl, hva er Anne til Bob?
+  relation: mor
+-
+  question: Hvis Anne er mor til Carl og Carl er mor til Berit, hva er Berit til Carl?
+  relation: bestemor
+-
+  question: Hvis Anne er mor til Carl og Carl er mor til Cecilie, hva er Cecilie til Carl?
+  relation: bestemor
+-
+  question: Hvis Anne er mor til Carl og Carl er far til Arild, hva er Arild til Anne?
+  relation: bestefar
+-
+  question: Hvis Anne er mor til Carl og Carl er far til Bob, hva er Bob til Anne?
+  relation: bestefar
+-
+  question: Hvis Anne er mor til Carl og Arild er onkel til Carl, hva er Anne til Arild?
+  relation: soster
+-
+  question: Hvis Anne er mor til Carl og Bob er onkel til Carl, hva er Anne til Bob?
+  relation: soster
+-
+  question: Hvis Anne er mor til Carl og Berit er tante til Carl, hva er Berit til Anne?
+  relation: soster
+-
+  question: Hvis Anne er mor til Carl og Cecilie er tante til Carl, hva er Cecilie til Anne?
+  relation: soster
+-
+  question: Hvis Berit er mor til Anne og Cecilie er soster til Anne, hva er Berit til Cecilie?
+  relation: mor
+-
+  question: Hvis Berit er mor til Anne og Arild er bror til Anne, hva er Berit til Arild?
+  relation: mor
+-
+  question: Hvis Berit er mor til Anne og Bob er bror til Anne, hva er Berit til Bob?
+  relation: mor
+-
+  question: Hvis Berit er mor til Anne og Carl er bror til Anne, hva er Berit til Carl?
+  relation: mor
+-
+  question: Hvis Berit er mor til Anne og Anne er mor til Cecilie, hva er Cecilie til Anne?
+  relation: bestemor
+-
+  question: Hvis Berit er mor til Anne og Anne er far til Arild, hva er Arild til Berit?
+  relation: bestefar
+-
+  question: Hvis Berit er mor til Anne og Anne er far til Bob, hva er Bob til Berit?
+  relation: bestefar
+-
+  question: Hvis Berit er mor til Anne og Anne er far til Carl, hva er Carl til Berit?
+  relation: bestefar
+-
+  question: Hvis Berit er mor til Anne og Arild er onkel til Anne, hva er Berit til Arild?
+  relation: soster
+-
+  question: Hvis Berit er mor til Anne og Bob er onkel til Anne, hva er Berit til Bob?
+  relation: soster
+-
+  question: Hvis Berit er mor til Anne og Carl er onkel til Anne, hva er Berit til Carl?
+  relation: soster
+-
+  question: Hvis Berit er mor til Anne og Cecilie er tante til Anne, hva er Cecilie til Berit?
+  relation: soster
+-
+  question: Hvis Berit er mor til Arild og Anne er soster til Arild, hva er Berit til Anne?
+  relation: mor
+-
+  question: Hvis Berit er mor til Arild og Cecilie er soster til Arild, hva er Berit til Cecilie?
+  relation: mor
+-
+  question: Hvis Berit er mor til Arild og Bob er bror til Arild, hva er Berit til Bob?
+  relation: mor
+-
+  question: Hvis Berit er mor til Arild og Carl er bror til Arild, hva er Berit til Carl?
+  relation: mor
+-
+  question: Hvis Berit er mor til Arild og Arild er mor til Anne, hva er Anne til Arild?
+  relation: bestemor
+-
+  question: Hvis Berit er mor til Arild og Arild er mor til Cecilie, hva er Cecilie til Arild?
+  relation: bestemor
+-
+  question: Hvis Berit er mor til Arild og Arild er far til Bob, hva er Bob til Berit?
+  relation: bestefar
+-
+  question: Hvis Berit er mor til Arild og Arild er far til Carl, hva er Carl til Berit?
+  relation: bestefar
+-
+  question: Hvis Berit er mor til Arild og Bob er onkel til Arild, hva er Berit til Bob?
+  relation: soster
+-
+  question: Hvis Berit er mor til Arild og Carl er onkel til Arild, hva er Berit til Carl?
+  relation: soster
+-
+  question: Hvis Berit er mor til Arild og Anne er tante til Arild, hva er Anne til Berit?
+  relation: soster
+-
+  question: Hvis Berit er mor til Arild og Cecilie er tante til Arild, hva er Cecilie til Berit?
+  relation: soster
+-
+  question: Hvis Berit er mor til Bob og Anne er soster til Bob, hva er Berit til Anne?
+  relation: mor
+-
+  question: Hvis Berit er mor til Bob og Cecilie er soster til Bob, hva er Berit til Cecilie?
+  relation: mor
+-
+  question: Hvis Berit er mor til Bob og Arild er bror til Bob, hva er Berit til Arild?
+  relation: mor
+-
+  question: Hvis Berit er mor til Bob og Carl er bror til Bob, hva er Berit til Carl?
+  relation: mor
+-
+  question: Hvis Berit er mor til Bob og Bob er mor til Anne, hva er Anne til Bob?
+  relation: bestemor
+-
+  question: Hvis Berit er mor til Bob og Bob er mor til Cecilie, hva er Cecilie til Bob?
+  relation: bestemor
+-
+  question: Hvis Berit er mor til Bob og Bob er far til Arild, hva er Arild til Berit?
+  relation: bestefar
+-
+  question: Hvis Berit er mor til Bob og Bob er far til Carl, hva er Carl til Berit?
+  relation: bestefar
+-
+  question: Hvis Berit er mor til Bob og Arild er onkel til Bob, hva er Berit til Arild?
+  relation: soster
+-
+  question: Hvis Berit er mor til Bob og Carl er onkel til Bob, hva er Berit til Carl?
+  relation: soster
+-
+  question: Hvis Berit er mor til Bob og Anne er tante til Bob, hva er Anne til Berit?
+  relation: soster
+-
+  question: Hvis Berit er mor til Bob og Cecilie er tante til Bob, hva er Cecilie til Berit?
+  relation: soster
+-
+  question: Hvis Berit er mor til Cecilie og Anne er soster til Cecilie, hva er Berit til Anne?
+  relation: mor
+-
+  question: Hvis Berit er mor til Cecilie og Arild er bror til Cecilie, hva er Berit til Arild?
+  relation: mor
+-
+  question: Hvis Berit er mor til Cecilie og Bob er bror til Cecilie, hva er Berit til Bob?
+  relation: mor
+-
+  question: Hvis Berit er mor til Cecilie og Carl er bror til Cecilie, hva er Berit til Carl?
+  relation: mor
+-
+  question: Hvis Berit er mor til Cecilie og Cecilie er mor til Anne, hva er Anne til Cecilie?
+  relation: bestemor
+-
+  question: Hvis Berit er mor til Cecilie og Cecilie er far til Arild, hva er Arild til Berit?
+  relation: bestefar
+-
+  question: Hvis Berit er mor til Cecilie og Cecilie er far til Bob, hva er Bob til Berit?
+  relation: bestefar
+-
+  question: Hvis Berit er mor til Cecilie og Cecilie er far til Carl, hva er Carl til Berit?
+  relation: bestefar
+-
+  question: Hvis Berit er mor til Cecilie og Arild er onkel til Cecilie, hva er Berit til Arild?
+  relation: soster
+-
+  question: Hvis Berit er mor til Cecilie og Bob er onkel til Cecilie, hva er Berit til Bob?
+  relation: soster
+-
+  question: Hvis Berit er mor til Cecilie og Carl er onkel til Cecilie, hva er Berit til Carl?
+  relation: soster
+-
+  question: Hvis Berit er mor til Cecilie og Anne er tante til Cecilie, hva er Anne til Berit?
+  relation: soster
+-
+  question: Hvis Berit er mor til Carl og Anne er soster til Carl, hva er Berit til Anne?
+  relation: mor
+-
+  question: Hvis Berit er mor til Carl og Cecilie er soster til Carl, hva er Berit til Cecilie?
+  relation: mor
+-
+  question: Hvis Berit er mor til Carl og Arild er bror til Carl, hva er Berit til Arild?
+  relation: mor
+-
+  question: Hvis Berit er mor til Carl og Bob er bror til Carl, hva er Berit til Bob?
+  relation: mor
+-
+  question: Hvis Berit er mor til Carl og Carl er mor til Anne, hva er Anne til Carl?
+  relation: bestemor
+-
+  question: Hvis Berit er mor til Carl og Carl er mor til Cecilie, hva er Cecilie til Carl?
+  relation: bestemor
+-
+  question: Hvis Berit er mor til Carl og Carl er far til Arild, hva er Arild til Berit?
+  relation: bestefar
+-
+  question: Hvis Berit er mor til Carl og Carl er far til Bob, hva er Bob til Berit?
+  relation: bestefar
+-
+  question: Hvis Berit er mor til Carl og Arild er onkel til Carl, hva er Berit til Arild?
+  relation: soster
+-
+  question: Hvis Berit er mor til Carl og Bob er onkel til Carl, hva er Berit til Bob?
+  relation: soster
+-
+  question: Hvis Berit er mor til Carl og Anne er tante til Carl, hva er Anne til Berit?
+  relation: soster
+-
+  question: Hvis Berit er mor til Carl og Cecilie er tante til Carl, hva er Cecilie til Berit?
+  relation: soster
+-
+  question: Hvis Cecilie er mor til Anne og Berit er soster til Anne, hva er Cecilie til Berit?
+  relation: mor
+-
+  question: Hvis Cecilie er mor til Anne og Arild er bror til Anne, hva er Cecilie til Arild?
+  relation: mor
+-
+  question: Hvis Cecilie er mor til Anne og Bob er bror til Anne, hva er Cecilie til Bob?
+  relation: mor
+-
+  question: Hvis Cecilie er mor til Anne og Carl er bror til Anne, hva er Cecilie til Carl?
+  relation: mor
+-
+  question: Hvis Cecilie er mor til Anne og Anne er mor til Berit, hva er Berit til Anne?
+  relation: bestemor
+-
+  question: Hvis Cecilie er mor til Anne og Anne er far til Arild, hva er Arild til Cecilie?
+  relation: bestefar
+-
+  question: Hvis Cecilie er mor til Anne og Anne er far til Bob, hva er Bob til Cecilie?
+  relation: bestefar
+-
+  question: Hvis Cecilie er mor til Anne og Anne er far til Carl, hva er Carl til Cecilie?
+  relation: bestefar
+-
+  question: Hvis Cecilie er mor til Anne og Arild er onkel til Anne, hva er Cecilie til Arild?
+  relation: soster
+-
+  question: Hvis Cecilie er mor til Anne og Bob er onkel til Anne, hva er Cecilie til Bob?
+  relation: soster
+-
+  question: Hvis Cecilie er mor til Anne og Carl er onkel til Anne, hva er Cecilie til Carl?
+  relation: soster
+-
+  question: Hvis Cecilie er mor til Anne og Berit er tante til Anne, hva er Berit til Cecilie?
+  relation: soster
+-
+  question: Hvis Cecilie er mor til Arild og Anne er soster til Arild, hva er Cecilie til Anne?
+  relation: mor
+-
+  question: Hvis Cecilie er mor til Arild og Berit er soster til Arild, hva er Cecilie til Berit?
+  relation: mor
+-
+  question: Hvis Cecilie er mor til Arild og Bob er bror til Arild, hva er Cecilie til Bob?
+  relation: mor
+-
+  question: Hvis Cecilie er mor til Arild og Carl er bror til Arild, hva er Cecilie til Carl?
+  relation: mor
+-
+  question: Hvis Cecilie er mor til Arild og Arild er mor til Anne, hva er Anne til Arild?
+  relation: bestemor
+-
+  question: Hvis Cecilie er mor til Arild og Arild er mor til Berit, hva er Berit til Arild?
+  relation: bestemor
+-
+  question: Hvis Cecilie er mor til Arild og Arild er far til Bob, hva er Bob til Cecilie?
+  relation: bestefar
+-
+  question: Hvis Cecilie er mor til Arild og Arild er far til Carl, hva er Carl til Cecilie?
+  relation: bestefar
+-
+  question: Hvis Cecilie er mor til Arild og Bob er onkel til Arild, hva er Cecilie til Bob?
+  relation: soster
+-
+  question: Hvis Cecilie er mor til Arild og Carl er onkel til Arild, hva er Cecilie til Carl?
+  relation: soster
+-
+  question: Hvis Cecilie er mor til Arild og Anne er tante til Arild, hva er Anne til Cecilie?
+  relation: soster
+-
+  question: Hvis Cecilie er mor til Arild og Berit er tante til Arild, hva er Berit til Cecilie?
+  relation: soster
+-
+  question: Hvis Cecilie er mor til Bob og Anne er soster til Bob, hva er Cecilie til Anne?
+  relation: mor
+-
+  question: Hvis Cecilie er mor til Bob og Berit er soster til Bob, hva er Cecilie til Berit?
+  relation: mor
+-
+  question: Hvis Cecilie er mor til Bob og Arild er bror til Bob, hva er Cecilie til Arild?
+  relation: mor
+-
+  question: Hvis Cecilie er mor til Bob og Carl er bror til Bob, hva er Cecilie til Carl?
+  relation: mor
+-
+  question: Hvis Cecilie er mor til Bob og Bob er mor til Anne, hva er Anne til Bob?
+  relation: bestemor
+-
+  question: Hvis Cecilie er mor til Bob og Bob er mor til Berit, hva er Berit til Bob?
+  relation: bestemor
+-
+  question: Hvis Cecilie er mor til Bob og Bob er far til Arild, hva er Arild til Cecilie?
+  relation: bestefar
+-
+  question: Hvis Cecilie er mor til Bob og Bob er far til Carl, hva er Carl til Cecilie?
+  relation: bestefar
+-
+  question: Hvis Cecilie er mor til Bob og Arild er onkel til Bob, hva er Cecilie til Arild?
+  relation: soster
+-
+  question: Hvis Cecilie er mor til Bob og Carl er onkel til Bob, hva er Cecilie til Carl?
+  relation: soster
+-
+  question: Hvis Cecilie er mor til Bob og Anne er tante til Bob, hva er Anne til Cecilie?
+  relation: soster
+-
+  question: Hvis Cecilie er mor til Bob og Berit er tante til Bob, hva er Berit til Cecilie?
+  relation: soster
+-
+  question: Hvis Cecilie er mor til Berit og Anne er soster til Berit, hva er Cecilie til Anne?
+  relation: mor
+-
+  question: Hvis Cecilie er mor til Berit og Arild er bror til Berit, hva er Cecilie til Arild?
+  relation: mor
+-
+  question: Hvis Cecilie er mor til Berit og Bob er bror til Berit, hva er Cecilie til Bob?
+  relation: mor
+-
+  question: Hvis Cecilie er mor til Berit og Carl er bror til Berit, hva er Cecilie til Carl?
+  relation: mor
+-
+  question: Hvis Cecilie er mor til Berit og Berit er mor til Anne, hva er Anne til Berit?
+  relation: bestemor
+-
+  question: Hvis Cecilie er mor til Berit og Berit er far til Arild, hva er Arild til Cecilie?
+  relation: bestefar
+-
+  question: Hvis Cecilie er mor til Berit og Berit er far til Bob, hva er Bob til Cecilie?
+  relation: bestefar
+-
+  question: Hvis Cecilie er mor til Berit og Berit er far til Carl, hva er Carl til Cecilie?
+  relation: bestefar
+-
+  question: Hvis Cecilie er mor til Berit og Arild er onkel til Berit, hva er Cecilie til Arild?
+  relation: soster
+-
+  question: Hvis Cecilie er mor til Berit og Bob er onkel til Berit, hva er Cecilie til Bob?
+  relation: soster
+-
+  question: Hvis Cecilie er mor til Berit og Carl er onkel til Berit, hva er Cecilie til Carl?
+  relation: soster
+-
+  question: Hvis Cecilie er mor til Berit og Anne er tante til Berit, hva er Anne til Cecilie?
+  relation: soster
+-
+  question: Hvis Cecilie er mor til Carl og Anne er soster til Carl, hva er Cecilie til Anne?
+  relation: mor
+-
+  question: Hvis Cecilie er mor til Carl og Berit er soster til Carl, hva er Cecilie til Berit?
+  relation: mor
+-
+  question: Hvis Cecilie er mor til Carl og Arild er bror til Carl, hva er Cecilie til Arild?
+  relation: mor
+-
+  question: Hvis Cecilie er mor til Carl og Bob er bror til Carl, hva er Cecilie til Bob?
+  relation: mor
+-
+  question: Hvis Cecilie er mor til Carl og Carl er mor til Anne, hva er Anne til Carl?
+  relation: bestemor
+-
+  question: Hvis Cecilie er mor til Carl og Carl er mor til Berit, hva er Berit til Carl?
+  relation: bestemor
+-
+  question: Hvis Cecilie er mor til Carl og Carl er far til Arild, hva er Arild til Cecilie?
+  relation: bestefar
+-
+  question: Hvis Cecilie er mor til Carl og Carl er far til Bob, hva er Bob til Cecilie?
+  relation: bestefar
+-
+  question: Hvis Cecilie er mor til Carl og Arild er onkel til Carl, hva er Cecilie til Arild?
+  relation: soster
+-
+  question: Hvis Cecilie er mor til Carl og Bob er onkel til Carl, hva er Cecilie til Bob?
+  relation: soster
+-
+  question: Hvis Cecilie er mor til Carl og Anne er tante til Carl, hva er Anne til Cecilie?
+  relation: soster
+-
+  question: Hvis Cecilie er mor til Carl og Berit er tante til Carl, hva er Berit til Cecilie?
+  relation: soster
+-
+  question: Hvis Arild er far til Anne og Berit er soster til Anne, hva er Arild til Berit?
+  relation: far
+-
+  question: Hvis Arild er far til Anne og Cecilie er soster til Anne, hva er Arild til Cecilie?
+  relation: far
+-
+  question: Hvis Arild er far til Anne og Bob er bror til Anne, hva er Arild til Bob?
+  relation: far
+-
+  question: Hvis Arild er far til Anne og Carl er bror til Anne, hva er Arild til Carl?
+  relation: far
+-
+  question: Hvis Arild er far til Anne og Anne er mor til Berit, hva er Berit til Anne?
+  relation: bestemor
+-
+  question: Hvis Arild er far til Anne og Anne er mor til Cecilie, hva er Cecilie til Anne?
+  relation: bestemor
+-
+  question: Hvis Arild er far til Anne og Anne er far til Bob, hva er Bob til Arild?
+  relation: bestefar
+-
+  question: Hvis Arild er far til Anne og Anne er far til Carl, hva er Carl til Arild?
+  relation: bestefar
+-
+  question: Hvis Arild er far til Anne og Bob er onkel til Anne, hva er Arild til Bob?
+  relation: bror
+-
+  question: Hvis Arild er far til Anne og Carl er onkel til Anne, hva er Arild til Carl?
+  relation: bror
+-
+  question: Hvis Arild er far til Anne og Berit er tante til Anne, hva er Berit til Arild?
+  relation: soster
+-
+  question: Hvis Arild er far til Anne og Cecilie er tante til Anne, hva er Cecilie til Arild?
+  relation: soster
+-
+  question: Hvis Arild er far til Bob og Anne er soster til Bob, hva er Arild til Anne?
+  relation: far
+-
+  question: Hvis Arild er far til Bob og Berit er soster til Bob, hva er Arild til Berit?
+  relation: far
+-
+  question: Hvis Arild er far til Bob og Cecilie er soster til Bob, hva er Arild til Cecilie?
+  relation: far
+-
+  question: Hvis Arild er far til Bob og Carl er bror til Bob, hva er Arild til Carl?
+  relation: far
+-
+  question: Hvis Arild er far til Bob og Bob er mor til Anne, hva er Anne til Bob?
+  relation: bestemor
+-
+  question: Hvis Arild er far til Bob og Bob er mor til Berit, hva er Berit til Bob?
+  relation: bestemor
+-
+  question: Hvis Arild er far til Bob og Bob er mor til Cecilie, hva er Cecilie til Bob?
+  relation: bestemor
+-
+  question: Hvis Arild er far til Bob og Bob er far til Carl, hva er Carl til Arild?
+  relation: bestefar
+-
+  question: Hvis Arild er far til Bob og Carl er onkel til Bob, hva er Arild til Carl?
+  relation: bror
+-
+  question: Hvis Arild er far til Bob og Anne er tante til Bob, hva er Anne til Arild?
+  relation: soster
+-
+  question: Hvis Arild er far til Bob og Berit er tante til Bob, hva er Berit til Arild?
+  relation: soster
+-
+  question: Hvis Arild er far til Bob og Cecilie er tante til Bob, hva er Cecilie til Arild?
+  relation: soster
+-
+  question: Hvis Arild er far til Berit og Anne er soster til Berit, hva er Arild til Anne?
+  relation: far
+-
+  question: Hvis Arild er far til Berit og Cecilie er soster til Berit, hva er Arild til Cecilie?
+  relation: far
+-
+  question: Hvis Arild er far til Berit og Bob er bror til Berit, hva er Arild til Bob?
+  relation: far
+-
+  question: Hvis Arild er far til Berit og Carl er bror til Berit, hva er Arild til Carl?
+  relation: far
+-
+  question: Hvis Arild er far til Berit og Berit er mor til Anne, hva er Anne til Berit?
+  relation: bestemor
+-
+  question: Hvis Arild er far til Berit og Berit er mor til Cecilie, hva er Cecilie til Berit?
+  relation: bestemor
+-
+  question: Hvis Arild er far til Berit og Berit er far til Bob, hva er Bob til Arild?
+  relation: bestefar
+-
+  question: Hvis Arild er far til Berit og Berit er far til Carl, hva er Carl til Arild?
+  relation: bestefar
+-
+  question: Hvis Arild er far til Berit og Bob er onkel til Berit, hva er Arild til Bob?
+  relation: bror
+-
+  question: Hvis Arild er far til Berit og Carl er onkel til Berit, hva er Arild til Carl?
+  relation: bror
+-
+  question: Hvis Arild er far til Berit og Anne er tante til Berit, hva er Anne til Arild?
+  relation: soster
+-
+  question: Hvis Arild er far til Berit og Cecilie er tante til Berit, hva er Cecilie til Arild?
+  relation: soster
+-
+  question: Hvis Arild er far til Cecilie og Anne er soster til Cecilie, hva er Arild til Anne?
+  relation: far
+-
+  question: Hvis Arild er far til Cecilie og Berit er soster til Cecilie, hva er Arild til Berit?
+  relation: far
+-
+  question: Hvis Arild er far til Cecilie og Bob er bror til Cecilie, hva er Arild til Bob?
+  relation: far
+-
+  question: Hvis Arild er far til Cecilie og Carl er bror til Cecilie, hva er Arild til Carl?
+  relation: far
+-
+  question: Hvis Arild er far til Cecilie og Cecilie er mor til Anne, hva er Anne til Cecilie?
+  relation: bestemor
+-
+  question: Hvis Arild er far til Cecilie og Cecilie er mor til Berit, hva er Berit til Cecilie?
+  relation: bestemor
+-
+  question: Hvis Arild er far til Cecilie og Cecilie er far til Bob, hva er Bob til Arild?
+  relation: bestefar
+-
+  question: Hvis Arild er far til Cecilie og Cecilie er far til Carl, hva er Carl til Arild?
+  relation: bestefar
+-
+  question: Hvis Arild er far til Cecilie og Bob er onkel til Cecilie, hva er Arild til Bob?
+  relation: bror
+-
+  question: Hvis Arild er far til Cecilie og Carl er onkel til Cecilie, hva er Arild til Carl?
+  relation: bror
+-
+  question: Hvis Arild er far til Cecilie og Anne er tante til Cecilie, hva er Anne til Arild?
+  relation: soster
+-
+  question: Hvis Arild er far til Cecilie og Berit er tante til Cecilie, hva er Berit til Arild?
+  relation: soster
+-
+  question: Hvis Arild er far til Carl og Anne er soster til Carl, hva er Arild til Anne?
+  relation: far
+-
+  question: Hvis Arild er far til Carl og Berit er soster til Carl, hva er Arild til Berit?
+  relation: far
+-
+  question: Hvis Arild er far til Carl og Cecilie er soster til Carl, hva er Arild til Cecilie?
+  relation: far
+-
+  question: Hvis Arild er far til Carl og Bob er bror til Carl, hva er Arild til Bob?
+  relation: far
+-
+  question: Hvis Arild er far til Carl og Carl er mor til Anne, hva er Anne til Carl?
+  relation: bestemor
+-
+  question: Hvis Arild er far til Carl og Carl er mor til Berit, hva er Berit til Carl?
+  relation: bestemor
+-
+  question: Hvis Arild er far til Carl og Carl er mor til Cecilie, hva er Cecilie til Carl?
+  relation: bestemor
+-
+  question: Hvis Arild er far til Carl og Carl er far til Bob, hva er Bob til Arild?
+  relation: bestefar
+-
+  question: Hvis Arild er far til Carl og Bob er onkel til Carl, hva er Arild til Bob?
+  relation: bror
+-
+  question: Hvis Arild er far til Carl og Anne er tante til Carl, hva er Anne til Arild?
+  relation: soster
+-
+  question: Hvis Arild er far til Carl og Berit er tante til Carl, hva er Berit til Arild?
+  relation: soster
+-
+  question: Hvis Arild er far til Carl og Cecilie er tante til Carl, hva er Cecilie til Arild?
+  relation: soster
+-
+  question: Hvis Bob er far til Anne og Berit er soster til Anne, hva er Bob til Berit?
+  relation: far
+-
+  question: Hvis Bob er far til Anne og Cecilie er soster til Anne, hva er Bob til Cecilie?
+  relation: far
+-
+  question: Hvis Bob er far til Anne og Arild er bror til Anne, hva er Bob til Arild?
+  relation: far
+-
+  question: Hvis Bob er far til Anne og Carl er bror til Anne, hva er Bob til Carl?
+  relation: far
+-
+  question: Hvis Bob er far til Anne og Anne er mor til Berit, hva er Berit til Anne?
+  relation: bestemor
+-
+  question: Hvis Bob er far til Anne og Anne er mor til Cecilie, hva er Cecilie til Anne?
+  relation: bestemor
+-
+  question: Hvis Bob er far til Anne og Anne er far til Arild, hva er Arild til Bob?
+  relation: bestefar
+-
+  question: Hvis Bob er far til Anne og Anne er far til Carl, hva er Carl til Bob?
+  relation: bestefar
+-
+  question: Hvis Bob er far til Anne og Arild er onkel til Anne, hva er Bob til Arild?
+  relation: bror
+-
+  question: Hvis Bob er far til Anne og Carl er onkel til Anne, hva er Bob til Carl?
+  relation: bror
+-
+  question: Hvis Bob er far til Anne og Berit er tante til Anne, hva er Berit til Bob?
+  relation: soster
+-
+  question: Hvis Bob er far til Anne og Cecilie er tante til Anne, hva er Cecilie til Bob?
+  relation: soster
+-
+  question: Hvis Bob er far til Arild og Anne er soster til Arild, hva er Bob til Anne?
+  relation: far
+-
+  question: Hvis Bob er far til Arild og Berit er soster til Arild, hva er Bob til Berit?
+  relation: far
+-
+  question: Hvis Bob er far til Arild og Cecilie er soster til Arild, hva er Bob til Cecilie?
+  relation: far
+-
+  question: Hvis Bob er far til Arild og Carl er bror til Arild, hva er Bob til Carl?
+  relation: far
+-
+  question: Hvis Bob er far til Arild og Arild er mor til Anne, hva er Anne til Arild?
+  relation: bestemor
+-
+  question: Hvis Bob er far til Arild og Arild er mor til Berit, hva er Berit til Arild?
+  relation: bestemor
+-
+  question: Hvis Bob er far til Arild og Arild er mor til Cecilie, hva er Cecilie til Arild?
+  relation: bestemor
+-
+  question: Hvis Bob er far til Arild og Arild er far til Carl, hva er Carl til Bob?
+  relation: bestefar
+-
+  question: Hvis Bob er far til Arild og Carl er onkel til Arild, hva er Bob til Carl?
+  relation: bror
+-
+  question: Hvis Bob er far til Arild og Anne er tante til Arild, hva er Anne til Bob?
+  relation: soster
+-
+  question: Hvis Bob er far til Arild og Berit er tante til Arild, hva er Berit til Bob?
+  relation: soster
+-
+  question: Hvis Bob er far til Arild og Cecilie er tante til Arild, hva er Cecilie til Bob?
+  relation: soster
+-
+  question: Hvis Bob er far til Berit og Anne er soster til Berit, hva er Bob til Anne?
+  relation: far
+-
+  question: Hvis Bob er far til Berit og Cecilie er soster til Berit, hva er Bob til Cecilie?
+  relation: far
+-
+  question: Hvis Bob er far til Berit og Arild er bror til Berit, hva er Bob til Arild?
+  relation: far
+-
+  question: Hvis Bob er far til Berit og Carl er bror til Berit, hva er Bob til Carl?
+  relation: far
+-
+  question: Hvis Bob er far til Berit og Berit er mor til Anne, hva er Anne til Berit?
+  relation: bestemor
+-
+  question: Hvis Bob er far til Berit og Berit er mor til Cecilie, hva er Cecilie til Berit?
+  relation: bestemor
+-
+  question: Hvis Bob er far til Berit og Berit er far til Arild, hva er Arild til Bob?
+  relation: bestefar
+-
+  question: Hvis Bob er far til Berit og Berit er far til Carl, hva er Carl til Bob?
+  relation: bestefar
+-
+  question: Hvis Bob er far til Berit og Arild er onkel til Berit, hva er Bob til Arild?
+  relation: bror
+-
+  question: Hvis Bob er far til Berit og Carl er onkel til Berit, hva er Bob til Carl?
+  relation: bror
+-
+  question: Hvis Bob er far til Berit og Anne er tante til Berit, hva er Anne til Bob?
+  relation: soster
+-
+  question: Hvis Bob er far til Berit og Cecilie er tante til Berit, hva er Cecilie til Bob?
+  relation: soster
+-
+  question: Hvis Bob er far til Cecilie og Anne er soster til Cecilie, hva er Bob til Anne?
+  relation: far
+-
+  question: Hvis Bob er far til Cecilie og Berit er soster til Cecilie, hva er Bob til Berit?
+  relation: far
+-
+  question: Hvis Bob er far til Cecilie og Arild er bror til Cecilie, hva er Bob til Arild?
+  relation: far
+-
+  question: Hvis Bob er far til Cecilie og Carl er bror til Cecilie, hva er Bob til Carl?
+  relation: far
+-
+  question: Hvis Bob er far til Cecilie og Cecilie er mor til Anne, hva er Anne til Cecilie?
+  relation: bestemor
+-
+  question: Hvis Bob er far til Cecilie og Cecilie er mor til Berit, hva er Berit til Cecilie?
+  relation: bestemor
+-
+  question: Hvis Bob er far til Cecilie og Cecilie er far til Arild, hva er Arild til Bob?
+  relation: bestefar
+-
+  question: Hvis Bob er far til Cecilie og Cecilie er far til Carl, hva er Carl til Bob?
+  relation: bestefar
+-
+  question: Hvis Bob er far til Cecilie og Arild er onkel til Cecilie, hva er Bob til Arild?
+  relation: bror
+-
+  question: Hvis Bob er far til Cecilie og Carl er onkel til Cecilie, hva er Bob til Carl?
+  relation: bror
+-
+  question: Hvis Bob er far til Cecilie og Anne er tante til Cecilie, hva er Anne til Bob?
+  relation: soster
+-
+  question: Hvis Bob er far til Cecilie og Berit er tante til Cecilie, hva er Berit til Bob?
+  relation: soster
+-
+  question: Hvis Bob er far til Carl og Anne er soster til Carl, hva er Bob til Anne?
+  relation: far
+-
+  question: Hvis Bob er far til Carl og Berit er soster til Carl, hva er Bob til Berit?
+  relation: far
+-
+  question: Hvis Bob er far til Carl og Cecilie er soster til Carl, hva er Bob til Cecilie?
+  relation: far
+-
+  question: Hvis Bob er far til Carl og Arild er bror til Carl, hva er Bob til Arild?
+  relation: far
+-
+  question: Hvis Bob er far til Carl og Carl er mor til Anne, hva er Anne til Carl?
+  relation: bestemor
+-
+  question: Hvis Bob er far til Carl og Carl er mor til Berit, hva er Berit til Carl?
+  relation: bestemor
+-
+  question: Hvis Bob er far til Carl og Carl er mor til Cecilie, hva er Cecilie til Carl?
+  relation: bestemor
+-
+  question: Hvis Bob er far til Carl og Carl er far til Arild, hva er Arild til Bob?
+  relation: bestefar
+-
+  question: Hvis Bob er far til Carl og Arild er onkel til Carl, hva er Bob til Arild?
+  relation: bror
+-
+  question: Hvis Bob er far til Carl og Anne er tante til Carl, hva er Anne til Bob?
+  relation: soster
+-
+  question: Hvis Bob er far til Carl og Berit er tante til Carl, hva er Berit til Bob?
+  relation: soster
+-
+  question: Hvis Bob er far til Carl og Cecilie er tante til Carl, hva er Cecilie til Bob?
+  relation: soster
+-
+  question: Hvis Carl er far til Anne og Berit er soster til Anne, hva er Carl til Berit?
+  relation: far
+-
+  question: Hvis Carl er far til Anne og Cecilie er soster til Anne, hva er Carl til Cecilie?
+  relation: far
+-
+  question: Hvis Carl er far til Anne og Arild er bror til Anne, hva er Carl til Arild?
+  relation: far
+-
+  question: Hvis Carl er far til Anne og Bob er bror til Anne, hva er Carl til Bob?
+  relation: far
+-
+  question: Hvis Carl er far til Anne og Anne er mor til Berit, hva er Berit til Anne?
+  relation: bestemor
+-
+  question: Hvis Carl er far til Anne og Anne er mor til Cecilie, hva er Cecilie til Anne?
+  relation: bestemor
+-
+  question: Hvis Carl er far til Anne og Anne er far til Arild, hva er Arild til Carl?
+  relation: bestefar
+-
+  question: Hvis Carl er far til Anne og Anne er far til Bob, hva er Bob til Carl?
+  relation: bestefar
+-
+  question: Hvis Carl er far til Anne og Arild er onkel til Anne, hva er Carl til Arild?
+  relation: bror
+-
+  question: Hvis Carl er far til Anne og Bob er onkel til Anne, hva er Carl til Bob?
+  relation: bror
+-
+  question: Hvis Carl er far til Anne og Berit er tante til Anne, hva er Berit til Carl?
+  relation: soster
+-
+  question: Hvis Carl er far til Anne og Cecilie er tante til Anne, hva er Cecilie til Carl?
+  relation: soster
+-
+  question: Hvis Carl er far til Arild og Anne er soster til Arild, hva er Carl til Anne?
+  relation: far
+-
+  question: Hvis Carl er far til Arild og Berit er soster til Arild, hva er Carl til Berit?
+  relation: far
+-
+  question: Hvis Carl er far til Arild og Cecilie er soster til Arild, hva er Carl til Cecilie?
+  relation: far
+-
+  question: Hvis Carl er far til Arild og Bob er bror til Arild, hva er Carl til Bob?
+  relation: far
+-
+  question: Hvis Carl er far til Arild og Arild er mor til Anne, hva er Anne til Arild?
+  relation: bestemor
+-
+  question: Hvis Carl er far til Arild og Arild er mor til Berit, hva er Berit til Arild?
+  relation: bestemor
+-
+  question: Hvis Carl er far til Arild og Arild er mor til Cecilie, hva er Cecilie til Arild?
+  relation: bestemor
+-
+  question: Hvis Carl er far til Arild og Arild er far til Bob, hva er Bob til Carl?
+  relation: bestefar
+-
+  question: Hvis Carl er far til Arild og Bob er onkel til Arild, hva er Carl til Bob?
+  relation: bror
+-
+  question: Hvis Carl er far til Arild og Anne er tante til Arild, hva er Anne til Carl?
+  relation: soster
+-
+  question: Hvis Carl er far til Arild og Berit er tante til Arild, hva er Berit til Carl?
+  relation: soster
+-
+  question: Hvis Carl er far til Arild og Cecilie er tante til Arild, hva er Cecilie til Carl?
+  relation: soster
+-
+  question: Hvis Carl er far til Bob og Anne er soster til Bob, hva er Carl til Anne?
+  relation: far
+-
+  question: Hvis Carl er far til Bob og Berit er soster til Bob, hva er Carl til Berit?
+  relation: far
+-
+  question: Hvis Carl er far til Bob og Cecilie er soster til Bob, hva er Carl til Cecilie?
+  relation: far
+-
+  question: Hvis Carl er far til Bob og Arild er bror til Bob, hva er Carl til Arild?
+  relation: far
+-
+  question: Hvis Carl er far til Bob og Bob er mor til Anne, hva er Anne til Bob?
+  relation: bestemor
+-
+  question: Hvis Carl er far til Bob og Bob er mor til Berit, hva er Berit til Bob?
+  relation: bestemor
+-
+  question: Hvis Carl er far til Bob og Bob er mor til Cecilie, hva er Cecilie til Bob?
+  relation: bestemor
+-
+  question: Hvis Carl er far til Bob og Bob er far til Arild, hva er Arild til Carl?
+  relation: bestefar
+-
+  question: Hvis Carl er far til Bob og Arild er onkel til Bob, hva er Carl til Arild?
+  relation: bror
+-
+  question: Hvis Carl er far til Bob og Anne er tante til Bob, hva er Anne til Carl?
+  relation: soster
+-
+  question: Hvis Carl er far til Bob og Berit er tante til Bob, hva er Berit til Carl?
+  relation: soster
+-
+  question: Hvis Carl er far til Bob og Cecilie er tante til Bob, hva er Cecilie til Carl?
+  relation: soster
+-
+  question: Hvis Carl er far til Berit og Anne er soster til Berit, hva er Carl til Anne?
+  relation: far
+-
+  question: Hvis Carl er far til Berit og Cecilie er soster til Berit, hva er Carl til Cecilie?
+  relation: far
+-
+  question: Hvis Carl er far til Berit og Arild er bror til Berit, hva er Carl til Arild?
+  relation: far
+-
+  question: Hvis Carl er far til Berit og Bob er bror til Berit, hva er Carl til Bob?
+  relation: far
+-
+  question: Hvis Carl er far til Berit og Berit er mor til Anne, hva er Anne til Berit?
+  relation: bestemor
+-
+  question: Hvis Carl er far til Berit og Berit er mor til Cecilie, hva er Cecilie til Berit?
+  relation: bestemor
+-
+  question: Hvis Carl er far til Berit og Berit er far til Arild, hva er Arild til Carl?
+  relation: bestefar
+-
+  question: Hvis Carl er far til Berit og Berit er far til Bob, hva er Bob til Carl?
+  relation: bestefar
+-
+  question: Hvis Carl er far til Berit og Arild er onkel til Berit, hva er Carl til Arild?
+  relation: bror
+-
+  question: Hvis Carl er far til Berit og Bob er onkel til Berit, hva er Carl til Bob?
+  relation: bror
+-
+  question: Hvis Carl er far til Berit og Anne er tante til Berit, hva er Anne til Carl?
+  relation: soster
+-
+  question: Hvis Carl er far til Berit og Cecilie er tante til Berit, hva er Cecilie til Carl?
+  relation: soster
+-
+  question: Hvis Carl er far til Cecilie og Anne er soster til Cecilie, hva er Carl til Anne?
+  relation: far
+-
+  question: Hvis Carl er far til Cecilie og Berit er soster til Cecilie, hva er Carl til Berit?
+  relation: far
+-
+  question: Hvis Carl er far til Cecilie og Arild er bror til Cecilie, hva er Carl til Arild?
+  relation: far
+-
+  question: Hvis Carl er far til Cecilie og Bob er bror til Cecilie, hva er Carl til Bob?
+  relation: far
+-
+  question: Hvis Carl er far til Cecilie og Cecilie er mor til Anne, hva er Anne til Cecilie?
+  relation: bestemor
+-
+  question: Hvis Carl er far til Cecilie og Cecilie er mor til Berit, hva er Berit til Cecilie?
+  relation: bestemor
+-
+  question: Hvis Carl er far til Cecilie og Cecilie er far til Arild, hva er Arild til Carl?
+  relation: bestefar
+-
+  question: Hvis Carl er far til Cecilie og Cecilie er far til Bob, hva er Bob til Carl?
+  relation: bestefar
+-
+  question: Hvis Carl er far til Cecilie og Arild er onkel til Cecilie, hva er Carl til Arild?
+  relation: bror
+-
+  question: Hvis Carl er far til Cecilie og Bob er onkel til Cecilie, hva er Carl til Bob?
+  relation: bror
+-
+  question: Hvis Carl er far til Cecilie og Anne er tante til Cecilie, hva er Anne til Carl?
+  relation: soster
+-
+  question: Hvis Carl er far til Cecilie og Berit er tante til Cecilie, hva er Berit til Carl?
+  relation: soster
+
+
